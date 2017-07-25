@@ -1,0 +1,79 @@
+body{
+	background-color: rgb(224,255,255);
+	font-family: georgia;
+	font-size: 13pt;
+	color: #000000;
+}
+
+a {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a.visited {
+	color: #FF0000;
+	}
+
+div.contact{
+	text-align: center;
+	font-size: large;
+}
+div.image{
+	padding: 40px;
+	margin-top: 10px;
+}
+
+div.body{
+	text-align: left;
+	padding: 40px;
+	margin:0;
+
+}
+
+h1 {
+	font-family: serif;
+	font-size: xx-large;
+	text-align: center;
+	padding: 20px
+}
+
+h2 {
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+	}
+
+h3 {
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+}
+h4 {
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+	margin:0;
+}
+h5 {
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+	margin:0;
+}
+h6 {
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+	margin:0;
+}
+h7{
+	font-family: georgia;
+	font-size: x-large;
+	font-stretch: normal;
+	font-weight: lighter;
+}

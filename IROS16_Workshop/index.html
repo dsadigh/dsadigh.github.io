@@ -1,0 +1,376 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="padding-top: 20px">
+    <div class="navbar navbar-inverse navbar-fixed-top hidden-xs">
+      <div class="container">
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#keyfacts">Key Facts</a>
+            </li>
+            <li>
+              <a href="#overview">Overview of Workshop</a>
+            </li>
+            <li>
+              <a href="#poster">Call for Posters</a>
+            </li>
+            <li>
+              <a href="#audience">Audience</a>
+            </li>
+            <li>
+              <a href="#schedule">Tentative Schedule</a>
+            </li>
+            <li>
+              <a href="#speakers">Invited Speakers</a>
+            </li>
+            <li>
+              <a href="#organizers">Organizers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div style="padding-top: 50px" class="hidden-xs"></div>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-sm-8">
+            <h2>
+              Perspectives on Analysis and Design of<br>
+              Human-Centered Robotics
+            </h2>
+            <p>
+              IROS 2016 Workshop <br />
+              October 10, 2016 <br />
+              Daejeon, Korea
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/daejeon.jpg" alt="Daejeon, Korea" class="img-rounded img-responsive" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 id="keyfacts">Key Facts</h2>
+        <dl>
+          <dt><span class="fa fa-calendar"></span> Workshop Date</dt>
+          <dd> &emsp; October 10, 2016</dd>
+          <dt><span class="fa fa-globe"></span> Workshop Location</dt>
+          <dd> &emsp; Room 108</dd>
+          <dt><span class="fa fa-calendar"></span> Poster Submission Deadline</dt>
+          <dd> &emsp; October 1, 2016</dd>
+          <dt><span class="fa fa-envelope-o"></span> Contact Information</dt>
+          <dd> &emsp; iros2016-workshop@berkeley.edu</dd>
+        </dl>
+      </div>
+      <div>
+        <h2 id="overview">Overview of Workshop</h2>
+        <img src="img/frontfig.png" alt="Front Figure" class="pull-right" style="max-width: 35em"/>
+        <p align = "justify">
+          It is an exciting and pivotal moment in the history of robotics. As the gap between theoretical research and fully-fledged technology continues to close, important advances from mechanical design to decision algorithms are enabling robots to reliably carry out more complex tasks than ever before, unlocking an enormous potential for new applications. Once confined to the manufacturing floor, robots are quickly entering the public space at multiple levels: drones, surgical robots and self-driving cars are becoming tangible technologies impacting the human experience.
+        </p>
+        <p align = "justify">
+          This workshop promotes a multidisciplinary discussion to consolidate different perspectives and align research efforts by highlighting some of the key existing technical methods for introducing autonomous robots into the human domain. We're bringing together researchers from industry and academia to discuss problems in the area of human-centered robotics. We seek to bring together people from areas spanning human modeling, human-robot interaction, and robotic systems design.
+        </p>
+ <!--         <p>
+          It is an exciting and pivotal moment in the history of robotics. As the gap between theoretical research and fully-fledged technology continues to close, important advances from mechanical design to decision algorithms are enabling robots to reliably carry out more complex tasks than ever before, unlocking an enormous potential for new applications. Once confined to the manufacturing floor, robots are quickly entering the public space at multiple levels: drones, surgical robots and self-driving cars are becoming tangible technologies impacting the human experience.
+        </p>
+        <p>
+          Most of these new opportunities will require robotic systems to closely interact with human beings in their natural environments, which challenges the robotics community to look beyond its traditional assumptions. With rich predictive models of humans made available through recent research, and in the midst of increasingly powerful statistical methods, the time is finally ripe for robotics to deal with the elephant in the room: us.
+          Of course, efforts are already underway. Yet, even as ongoing research in the young field of human-robot-interaction contributes a variety of valuable insights, it is not always clear how to translate these insights into general principles that can then be applied to robotic planning, verification, and control. On one hand, the knowledge gained from cognitive and behavioral studies needs to be condensed into actionable predictive models that can naturally integrate into existing frameworks to inform the design and operation of robotic systems. At the same time, the frameworks themselves will need to adapt in order to better accommodate and build on these models. This leaves questions such as which human models are appropriate, and how to formalize interactions between humans and robots.
+        </p>
+        <p>
+          For example, when investigating a human-robot system, the choice of human model can dramatically change the conclusions that can be drawn from the composed system. Simple models (templates) often allow for faster computation while sacrificing the nuances of reality. More complex models (anchors) are better equipped to take these into account and can be used in a variety of circumstances, however can require intense computation.
+          The purpose of this workshop is to bring together researchers in industry and academia from different areas of robotics to hear their perspective on human-centered systems.  In principle, there are models and design techniques being developed for intelligent systems within each subfield (e.g. exoskeletons, autonomous vehicles, etc.) in isolation.  By looking at different perspectives on robotics in society, we can not only find common ground and apply these techniques to different human-robot systems, but also answer some of the remaining concerns in developing intelligent interactive systems:
+        </p>
+        <ul>
+          <li> Choosing a human model as well as a model of interaction and level of abstraction that facilitate smooth integration of humans into robotic systems.</li>
+          <li> Exploiting the structure in these models to make better sense of the increasingly abundant data, and inform data collection.</li>
+          <li> Merging data-driven and model-based techniques for the design of provably correct systems.</li>
+        </ul>
+        <p>
+          Channeling the combined predictive power of models and data into flexible planning and control algorithms will ultimately be crucial to provide desirable robot behavior, with performance and correctness guarantees, in the human space. This workshop will provide a combined view of some of the key existing technical methods for tackling parts of this problem and promote a multidisciplinary discussion to consolidate different perspectives and align research efforts.
+        </p>
+-->
+      </div>
+      <div>
+        <h2 id="poster">Call for Posters</h2>
+        <p align = "justify">
+          <b>Want to be involved?</b>  We're looking for interested participants in our <b>demo and poster session</b>, who can add a new perspective to human-centered robotics.  You may present work in progress or an overview of related works. 
+        </p>
+        <p>
+          Submit a title and abstract for your posters <a href="https://docs.google.com/a/berkeley.edu/forms/d/12BwFs0kpJ3b6wW9onX6reAAZpLpJ99b-xGkmqDVu4QM/viewform">here</a> by <b>October 1, 2016</b>.
+        </p>
+      </div>
+      <div>
+        <h2 id="audience">Why should you attend?</h2>
+         <p align = "justify">
+           This workshop is intended to gather researchers from industry and academia to discuss problems in the area of human-centered robotics. We seek to bring together people from areas spanning human modeling, human-robot interaction, and robotic systems design.
+         </p>
+         <p align = "justify">
+           We open our workshop with perspectives on human modeling and how it should inform the analysis and design of human-robot systems. In a series of talks, we then learn about the relative merits of two modeling methodologies; template and anchor models will be discussed in relation to bio-inspired robotic locomotion. Highly detailed models that represent the full neuromuscular system will be explored, showing the potential for these methods to further our understanding of the neural basis of human motion. We then focus on the effects of these modeling methodologies on specific applications in grasping and human-robot interaction. We further discuss system design and analysis of human-centered robotics, including medical and surgical robots. We close our workshop with an open discussion hosting a panel of industry experts to gain additional perspectives on the future of human-centered robotics.
+         </p>
+         <p>
+           The goal of the workshop is to contrast and connect different approaches to the analysis and design of human-centered systems, from both model-based and data-driven standpoints. We expect the technical content to attract researchers across the spectrum of human-robot systems, including human modeling, human-robot interaction, and system design.
+         </p>
+      </div>
+      <div>
+        <h2 id="schedule">Tentative Schedule</h2>
+        <p>
+          Logistics: 25 minute talks followed by 5 minute discussions.
+        </p>
+        <table class="table table-striped table-bordered">
+          <tbody>
+            <tr><td style="white-space: nowrap"> 08:50 AM - 09:00 AM </td><td width="100%">Workshop Introduction</td></tr>
+            <tr><td style="white-space: nowrap"> 09:00 AM - 09:30 AM </td><td width="100%"><a href="#aaron">Aaron Ames</a></td></tr>
+            <tr><td style="white-space: nowrap"> 09:30 AM - 10:00 AM </td><td width="100%"><a href="#peter">Peter Trautman</a></td></tr>
+            <tr><td style="white-space: nowrap"> 10:00 AM - 10:30 AM </td><td width="100%"><strong><span class="fa fa-coffee"></span> Discussion and Coffee Break</strong></td></tr>
+            <tr><td style="white-space: nowrap"> 10:30 AM - 11:00 AM </td><td width="100%"><a href="#ross">Ross Knepper</a></td></tr>
+            <tr><td style="white-space: nowrap"> 11:00 AM - 11:30 AM </td><td width="100%"><a href="#antonio">Antonio Bicchi</a></td></tr>
+            <tr><td style="white-space: nowrap"> 11:30 AM - 12:00 PM </td><td width="100%"><a href="#cenk">Cenk Cavusoglu</a></td></tr>
+            <tr><td style="white-space: nowrap"> 12:00 PM - 02:00 PM </td><td width="100%"><strong><span class="fa fa-cutlery"></span> Lunch Break </strong></td></tr>
+            <tr><td style="white-space: nowrap"> 02:00 PM - 02:30 PM </td><td width="100%"><a href="#anca">Anca Dragan</a></td></tr>
+            <tr><td style="white-space: nowrap"> 02:30 PM - 03:00 PM </td><td width="100%"><a href="#samir">Samir Menon</a></td></tr>
+            <tr><td style="white-space: nowrap"> 03:00 PM - 03:30 PM </td><td width="100%"><a href="#oussama">Oussama Khatib</a></td></tr>
+            <tr><td style="white-space: nowrap"> 03:30 PM - 04:00 PM </td><td width="100%"><strong><span class="fa fa-coffee"></span> Discussion and Coffee Break</strong></td></tr>
+            <tr><td style="white-space: nowrap"> 04:00 PM - 03:30 PM </td><td width="100%"><a href="#amit">Amit Kumar Pandey</a></td></tr>
+            <tr><td style="white-space: nowrap"> 04:30 PM - 05:00 PM </td><td width="100%"><a href="#shuo">Shuo Yang</a></td></tr>
+            <tr><td style="white-space: nowrap"> 05:00 PM - 05:30 PM </td><td width="100%">Posters</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h2 id="speakers">Invited Speakers</h2>
+        <ul class="media-list">
+          
+          <li class="media" id="aaron">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/aaron.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://robotics.gatech.edu/team/faculty/ames">
+                  Aaron Ames
+              </a></h3>
+              <p align = "justify">
+                Aaron D. Ames is an associate professor at the Georgia Institute of Technology in the George W. Woodruff School of Mechanical Engineering and the School of Electrical and Computer Engineering as of July 2015. Prior to joining Georgia Tech, he was an associate professor and Morris E. Foster Faculty Fellow II in Mechanical Engineering at Texas A & M University, with joint appointments in Electrical and Computer Engineering and Computer Science and Engineering. Ames received a B.S. in Mechanical Engineering and a B.A. in Mathematics from the University of St. Thomas in 2001, and he received a M.A. in Mathematics and a Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley in 2006. At UC Berkeley, he was the recipient of the 2005 Leon O. Chua Award for achievement in nonlinear science and the 2006 Bernard Friedman Memorial Prize in Applied Mathematics. He served as a postdoctoral scholar in control and dynamical systems at the California Institute of Technology from 2006 to 2008. In 2010, he received the NSF CAREER award for his research on bipedal robotic walking and its applications to prosthetic devices. Ames’ research interests center on robotics, nonlinear control, hybrid systems, and cyber-physical systems with special emphasis on foundational theory and experimental realization on robotic systems. His research lab designs, builds, and tests novel bipedal robots and prostheses with the goal of achieving human-like bipedal robotic walking and translating these capabilities to robotic assistive devices.
+              </p>
+            </div>
+          </li>
+
+          <li class="media" id="peter">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/Pete.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="https://galois.com/team/peter-trautman/">
+                  Peter Trautman
+              </a></h3>
+              <p align = "justify">
+                Pete Trautman received his B.S. in Physics and Applied Mathematics from
+                Baylor University in 2000. He then entered the United States Air Force,
+                serving first as an analyst at the National Air and Space Intelligence
+                Center, and then as a program manager/researcher at the Sensors
+                Directorate (RYAT). In 2005, he returned to graduate school at Caltech,
+                completing his Ph.D. in Control and Dynamical Systems in 2012. His
+                thesis research focused on robot navigation in dense human crowds, the
+                result of which was a probabilistic model of human robot cooperation and
+                a 6 month case study in Caltech’s student cafeteria. From 2012 until
+                early 2014, Pete was a Senior Engineer at the Boeing company, where he
+                developed navigation and localization technology for commercial aircraft
+                assembly robots. Additionally, he served as the sensing team lead for
+                Caltech’s DARPA Grand Challenge entry in 2006, has consulted for Toyon
+                Research and Applied Minds Inc., and has conducted research in physics
+                at the Los Alamos National Laboratory, the University of California at
+                San Diego, and Worcester Polytechnic Institute. He was a Best Paper
+                Finalist at ICRA 2013 for his work on autonomous crowd navigation.  He
+                now works at Galois, Inc. in Portland Oregon.
+              </p>
+            </div>
+          </li>
+
+          <li class="media" id="ross">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/ross.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://www.cs.cornell.edu/~rak/">
+                  Ross Knepper
+              </a></h3>
+              <p align = "justify">
+                Ross A. Knepper is an Assistant Professor in the Department of Computer Science at Cornell University. His research focuses on the theory, algorithms, and mechanisms of automated assembly. Previously, Ross was a Research Scientist in the Distributed Robotics Lab at MIT. Ross received his M.S and Ph.D. degrees in Robotics from Carnegie Mellon University in 2007 and 2011. Before his graduate education, Ross worked in industry at Compaq, where he designed high-performance algorithms for scalable multiprocessor systems; and also in commercialization at the National Robotics Engineering Center, where he adapted robotics technologies for customers in government and industry. Ross has served as a volunteer for Interpretation at Death Valley National Park, California.
+              </p>
+            </div>
+          </li>
+
+                    <li class="media" id="antonio">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/antonio.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://www.centropiaggio.unipi.it/~bicchi">
+                  Antonio Bicchi
+              </a></h3>
+              <p align = "justify">
+                Antonio Bicchi is Professor of Robotics at the University of Pisa, and Senior Scientist at the Italian Institute of Technology in Genoa. He graduated from the University of Bologna in 1988 and was a postdoc scholar at M.I.T. Artificial Intelligence lab in 1988–1990. He teaches Control Systems and Robotics in the Department of Information Engineering (DII) of the University of Pisa, leads the Robotics group at the Research Center &ldquo;E. Piaggio&rdquo; of the University of Pisa since 1990, where he was Director from 2003 to 2012. He is an Adjunct Professor at the School of Biological and Health Systems Engineering of Arizona State University since 2013. His main research interests are in Robotics, Haptics, and Control Systems in general. He has published more than 400 papers on international journals, books, and refereed conferences. He is Editor-in-Chief of the IEEE Robotics and Automation Letters, which he started in 2015. He is Editor of the book series &ldquo;Springer Briefs on Control, Automation and Robotics,&rdquo; and of several scientific journals, including the Int.l J. Robotics Research, the IEEE Trans. on Robotics and Automation, IEEE Trans. Automation Science and Engineering, and IEEE RAS Magazine. He is Program Chair of the IEEE Int.. Conf. Robotics and Automation (ICRA'15), he has co-organized and chaired the first WorldHaptics Conference (2005), and Hybrid Systems: Computation and Control (2007). He served as the President of the Italian Association or Researchers in Automatic Control (2012-2013), as Editor in Chief of the Conference Editorial Board for the IEEE Robotics and Automation Society (RAS), as Vice President for Publications (2013-2014), for Membership (2006-2007), and as Distinguished Lecturer (2004-2006) of IEEE RAS. He is the recipient of several awards and honors. In 2012, he was awarded with an individual Advanced Grant from the European Research Council for his research on human and robot hands. Antonio Bicchi is a Fellow of IEEE since 2005.
+              </p>
+            </div>
+          </li>
+
+          <li class="media" id="cenk">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/cenk.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://engr.case.edu/cavusoglu_cenk/Home.html">
+                  Cenk Cavusoglu
+              </a></h3>
+              <p align = "justify">
+              		M. Cenk Cavusoglu received the B.S. degree in electrical and electronic engineering from the Middle East Technical University, Ankara, Turkey, in 1995, and the M.S. and Ph.D. degrees in electrical engineering and computer sciences from the University of California (UC), Berkeley, in 1997 and 2000, respectively. He is currently a Professor of Electrical Engineering and Computer Science at Case Western Reserve University, Cleveland, OH, with secondary appointments in Biomedical Engineering and Mechanical and Aerospace Engineering departments. He was a Postdoctoral Researcher and Lecturer at the Department of Electrical Engineering and Computer Sciences, UC Berkeley, from 2000 to 2002. He was a visiting Associate Professor at the Electrical and Electronic Engineering Department of Bilkent University, Ankara, Turkey from 2009 to 2010, and a visiting researcher at the INRIA Rhone Alpes Research Center, Grenoble, France, in 1998. Dr. Cavusoglu’s research involves applications of robotics and control engineering to biomedical and biologically-inspired engineered systems. Specifically, his research interests include robotics, systems and control theory, and human-machine interfaces, with emphasis on Medical Robotics, Haptics, Virtual Environments, Surgical Simulation, and Bio-System Modeling and Simulation. Dr. Cavusoglu has participated in 13 federally funded research projects, and has been PI on 6 such projects. Dr. Cavusoglu is a senior member of the Institute of Electrical and Electronic Engineers (IEEE). He has served as an associate editor for the IEEE Transactions on Robotics (2005-2009, 20012-2014) and as a technical editor for IEEE?AMSE Transactions on Mechatronics (2012-2013). In his career, Dr. Cavusoglu has written more than 83 peer reviewed publications, 4 book chapters, and has given more than 48 national and international invited presentations. He has graduated 5 PhD students and 12 MS students.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="anca">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/anca.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://www.eecs.berkeley.edu/~anca/">
+                  Anca Dragan
+              </a></h3>
+              <p align = "justify">
+               Anca Dragan is a new Assistant Professor in UC Berkeley's EECS Department. She completed her PhD in Robotics at Carnegie Mellon. She was born in Romania and received her B.Sc. in Computer Science from Jacobs University in Germany in 2009. Her research lies at the intersection of robotics, machine learning, and human-computer interaction: she works on algorithms that enable robots to seamlessly work with, around, and in support of people. Anca's research and her outreach activities with children have been recognized by the Intel Fellowship and by scholarships from Siebel, the Dan David Prize, and Google Anita Borg.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="samir">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/samir.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://web.stanford.edu/~smenon/">
+                  Samir Menon
+              </a></h3>
+              <p align = "justify">
+              Samir Menon is a Ph.D. candidate in Computer Science at Stanford University. Samir is focused on using robotic control theory and biomechanics to predict musculoskeletal coordination strategies for individuals, and on using neuroimaging to determine how these strategies map on to the brain. While at Stanford, Samir has been awarded two Stanford School of Engineering fellowships and one Stanford Interdisciplinary Graduate Fellowship. Prior to that, Samir completed his Bachelors in Technology at the Indian Institute of Information Technology, Allahabad, where he was awarded the university's merit scholarship.
+                
+              </p>
+            </div>
+          </li>
+          <li class="media" id="oussama">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/oussama.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://cs.stanford.edu/groups/manips/ok.html">
+                  Oussama Khatib
+              </a></h3>
+              <p align = "justify">
+                 Oussama Khatib received his Doctorate degree in Electrical Engineering from Sup’Aero, Toulouse, France, in 1980. He is Professor of Computer Science at Stanford University. His work on advanced robotics focuses on methodologies and technologies in human-centered robotics including humanoid control architectures, human motion synthesis, interactive dynamic simulation, haptics, and human- friendly robot design. He is Co-Editor of the Springer Tracts in Advanced Robotics series, and has served on the Editorial Boards of several journals as well as the Chair or Co-Chair of numerous international conferences. He co-edited the Springer Handbook of Robotics, which received the PROSE Award. He is a Fellow of IEEE and has served as a Distinguished Lecturer. He is the President of the International Foundation of Robotics Research (IFRR). Professor Khatib is a recipient of the Japan Robot Association (JARA) Award in Research and Development. In 2010 he received the IEEE RAS Pioneer Award in Robotics and Automation for his fundamental pioneering contributions in robotics research, visionary leadership, and life-long commitment to the field. Professor Khatib received the 2013 IEEE RAS Distinguished Service Award in recognition of his vision and leadership for the Robotics and Automation Society, in establishing and sustaining conferences in robotics and related areas, publishing influential monographs and handbooks and training and mentoring the next generation of leaders in robotics education and research. In 2014, Professor Khatib received the 2014 IEEE RAS George Saridis Leadership Award in Robotics and Automation.
+                </p>
+            </div>
+          </li>
+           <li class="media" id="amit">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/amit.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://www.amitkpandey.com/">
+                  Amit Kumar Pandey
+              </a></h3>
+              <p align = "justify">
+                Dr. Amit Kumar Pandey is Head Principal Scientist (Chief Scientist) at SoftBank Robotics (formerly Aldebaran Robotics), Paris, France, also serving as the scientific coordinator (R&D) of its various collaborative projects. Earlier for 6 years he worked as researcher in Robotics and AI at LAAS-CNRS (French National Center for Scientific Research), Toulouse, France. His Ph.D. thesis in Robotics (title: Towards Socially Intelligent Robots in Human Centered Environment), is the second prize winner (tie) of the prestigious Georges Giralt Award for the best Ph.D. Thesis in Robotics in Europe, awarded by euRobotics (the European Union Robotics Community). His current research interest includes Socially Intelligent Robots, Human Robot Interaction (HRI), Robot’s Cognitive Architecture and Lifelong Learning. On these aspects, he has been actively contributing as principal investigator, researcher, and industrial scientific coordinator in various national and European Union (EU) projects, as well as involved in their design and proposal. Among other responsibilities, he is the founding coordinator of Socially Intelligent Robots and Societal Applications (SIRo-SA) Topic Group (TG) of euRobotics, and an active contributor in the Multi-Annual Roadmap (MAR) and Strategic Research Agenda (SRA) of euRobotics, which aim to shape the future of robotics in Europe in collaboration with European Commission (EC) through PPP SPARC (the largest civilian-funded robotics innovation programme in the world). He is also the recipient of Pravashi Bihari Samman Puruskar 2014 (Non Residential Bihari Honour Award), for Science, Technology and Education, one of the highest level civilian honors, awarded by the state of Bihar, India.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="shuo">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/shuo.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="">
+                  Shuo Yang
+              </a></h3>
+              <p align = "justify">
+                Shuo Yang is Director of Intelligent Navigation Technology of DJI. He obtained his bachelor degree in computer engineering and master degree in electronic and computer engineering from Hong Kong University of Science and Technology (HKUST). In DJI, Shuo developed flight control software framework and various intelligent flight functions. He designed DJI developer drone platform Matrice 100 to support drone navigation research. He is also in charge of DJI RoboMasters department, a department dedicated to operate robot competitions for university students and robotics hobbyists.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 id="organizers">Organizers</h2>
+        <ul class="media-list">
+          <li class="media" id="dorsa">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/sadigh.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://eecs.berkeley.edu/~dsadigh/">
+                  Dorsa Sadigh
+              </a></h3>
+              <p align = "justify">
+                Dorsa Sadigh is a Ph.D. candidate in the Electrical Engineering and Computer Sciences department at UC Berkeley. Her research interests lie in the intersection of control theory, formal methods and human-robot interactions. Specifically, she works on developing algorithms with provable guarantees for human cyber-physical systems such as semiautonomous vehicles. Dorsa graduated from Berkeley EECS undergraduate program in 2012. She is awarded the NDSEG and NSF graduate research fellowships as well as Leon O. Chua departmental award, and Google Anita Borg Scholarship.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="katie">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/katie.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://eecs.berkeley.edu/~krdc/">
+                  Katherine Driggs-Campbell
+              </a></h3>
+              <p align = "justify">
+                Katie was born and raised in Phoenix, AZ, and attended Arizona State University, graduating with a B.S.E. in Electrical Engineering in May 2012.  She is currently a PhD Candidate in the Department of Electrical Engineering and Computer Sciences at UC Berkeley.  Katie works with Professor Ruzena Bajcsy to study how humans and robots can interact and assist each other in everyday life.  Specifically, she works on the interaction between drivers and autonomous vehicles.  Katie enjoys being involved in the community and outreach, as well as learning new fun facts.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="jaime">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/jaime.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://eecs.berkeley.edu/~jfisac/">
+                  Jaime Fisac
+              </a></h3>
+              <p align = "justify">
+                Jaime F. Fisac is a Ph.D. candidate in the Electrical Engineering and Computer Sciences Department at UC Berkeley, working in the area of Control, Intelligent Systems and Robotics. He received his B.S./M.S. in Electrical Engineering from the Universidad Polit&eacute;cnica de Madrid (Spain) in 2012 and an additional M.Sc. in Autonomous Vehicles from Cranfield University (United Kingdom) in 2013. His research combines optimal control and dynamic game theory with Bayesian learning and cognitive science, aiming to understand how autonomous systems can learn to collaborate closely with people while guaranteeing safety.
+              </p>
+            </div>
+          </li>
+          <li class="media" id="rob">
+            <div class="media-left media-top">
+              <img class="media-object img-rounded" style="width: 8em" src="img/rob_headshot.jpg" />
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading"><a href="http://eecs.berkeley.edu/~tpwt/">
+                  Robert Matthew 
+              </a></h3>
+              <p align = "justify">
+                Robert received their Masters in Mechanical Engineering from Imperial College London in 2011, and a Masters of Science in Electrical Engineering from UC Berkeley in 2015. Robert received the Advanced Leadership award from the Royal Academy of London in 2008, became an Associate of the City and Guilds of London in 2011, and received the Berkeley Excellence Fellowship in 2011. They have worked in a number of international labs, including surgical and space robots, exoskeletons and is currently a PhD Candidate at UC Berkeley and Lab Manager for the Human-Assistive Robot Technologies Lab. In this role, Robert has helped mentor five graduate students, thirteen undergraduates, and has designed and run summer school curricula to encourage diversity in STEM subjects. Their current research focuses on the development of clinical human models that can be used to personalise interventions and prescribe assistive robotic devices. 
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+<!--       <div>
+        <h2 id="contact">Contact Information</h2>
+        You can email us if you have any questions: iros2016-workshop@berkeley.edu
+      </div>
+    </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
