@@ -1,1 +1,412 @@
-Under construction
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CS333 Safe and Interactive Robotics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="samir" >
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" >CS333 Safe and Interactive Robotics</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="piazza">Piazza</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="carousel slide" id="carousel-25687">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#carousel-25687"> </li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img alt="" src="./images/frontfig1.png">
+						</div>
+					</div>
+				</div>
+
+				<div class="row clearfix">
+					<h2>CS333: Safe and Interactive Robotics, Fall 2017-2018</h2>
+					<h3>Class: Tue, Thu 3:00-4:20pm, McMurtry Building 360</h3>
+					<br>
+					<h4>Description:</h4>
+					<p>Once confined to the manufacturing floor, robots are quickly entering the public space at multiple levels: drones, surgical robots, service robots, and self-driving cars are becoming tangible technologies impacting the human experience. Our goal in this class is to learn about and design algorithms that enable robots to reason about their actions, interact with one another, the humans, and the environment they live in, as well as plan safe strategies that humans can trust and rely on.</p>
+					<p>This is a project-based graduate course that studies algorithms in formal methods, control theory, and robotics, which can improve the state-of-the-art human-robot systems. We focus on designing new algorithms for enhancing safe and interactive autonomy.</p>
+					<br>
+					<h4>Format:</h4>
+					<p>The course is a combination of lecture and reading sessions. The lectures discuss the fundamentals of motion planning, formal methods applied in robotics, learning from demonstration, intent inference, and shared control required for modeling and design of safe and interactive autonomy for human-robot systems. During the reading sessions, students present and discuss recent contributions in this area. Throughout the semester, each student works on a related research project that they present at the end of the semester.</p>
+					<br>
+					<h4>Prerequisites:</h4>
+					<p>There are no official prerequisites, but an introductory course in artificial intelligence and robotics is recommended.</p>
+					<br>
+					<h4>Learning Objectives:</h4>
+					<p>At the end of this course you will have gained knowledge about applications of various topics in designing safe and interactive autonomous systems: temporal logics, reactive synthesis, planning and control, learning and human modeling, game theoretical foundations of interactive systems, safe learning, etc.</p>
+					<p>You will also have hands-on experience working on a research project and it is expected that you will gain the following research skills: analyzing literature related to a particular topic, critiquing papers, and presentation of research ideas.</p>
+				</div>
+
+				<div class="hrline"> <hr /> </div>
+				<div class="row clearfix">
+					<h3> Staff </h3>
+					<div class="row clearfix">
+						<div class="col-md-3 column">
+							<img class="img-thumbnail" src="images/dorsa.png" alt="Dorsa Sadigh" width="160" height="160">
+							<h3>Dorsa Sadigh</h3>
+							<h4>Instructor</h4>
+							<h5>Office Hours: Gates 142 (by appointment)</h4>
+							<h5><a href="http://dorsa.fyi">Webpage</a></h5>
+						</div>
+						<div class="col-md-3 column">
+							<img class="img-thumbnail" src="images/takatoki.png" alt="Toki Migimatsu" width="160" height="160">
+							<h3>Toki Migimatsu</h3>
+							<h4>Course Assistant</h4>
+						</div>
+					</div>
+				</div>
+
+				<div class="hrline"> <hr /> </div> <br>
+				<h3>Timeline</h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Lecture</th>
+							<th>Handouts / Deadlines</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Tue, Sep 26</td>
+							<td>Introduction to Safe and Interactive Robotics</td>
+							<td><a href="handouts/cs333_syllabus.pdf">Syllabus</a></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Sep 28</td>
+							<td><i>Lecture</i>:&ensp; Motion Planning</td>
+							<td>
+								<ul>
+									<li>Spatial Planning: A Configuration Space Approach. Lozano-Perez. (1983).</li>
+									<li>Analysis of Probabilistic Roadmaps for Path Planning. Kavraki, et al. (1988).</li>
+									<li>Randomized Kinodynamic Planning. LaValle, et al. (2001).</li>
+									<li>Path Planning in Expansive Configuration Spaces. Hsu, et al. (1997).</li>
+									<li>Belief Space Planning Assuming Maximum Likelihood Observations. Platt, et al. (2010).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tue, Oct 03</td>
+							<td><i>Lecture</i>:&ensp; Trajectory Optimization</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Oct 05</td>
+							<td><i>Lecture</i>:&ensp; Formal Methods in Robotics</td>
+							<td>
+								<ul>
+									<li>Church’s Problem Revisited. Kupferman and Vardi. (1999).</li>
+									<li>Temporal Logic-based Reactive Mission and Motion Planning. Kress-Gazit, et al. (2009).</li>
+									<li>A Fully Automated Framework for Control of Linear Systems from Temporal Logic Specifications. Kloetzer, et al. (2008).</li>
+									<li>Synthesis for Human-in-the-Loop Control Systems. Li, et al. (2014).</li>
+									<li>Synthesis of Human-in-the-Loop Control Protocols for Autonomous Systems. Feng et al. (2016).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tue, Oct 10</td>
+							<td><i>Lecture</i>:&ensp; Formal Methods in Robotics</td>
+							<td>
+								<ul>
+									<li>Optimization-based Trajectory Generation with Linear Temporal Logic Specifications. Wolff, et al. (2014).</li>
+									<li>Model Predictive Control with Signal Temporal Logic Specifications. Raman, et al. (2014).</li>
+									<li>Safe Control under Uncertainty with Probabilistic Signal Temporal Logic. Sadigh, et al. (2016).</li>
+									<li>Provably Safe and Robust Learning-based Model Predictive Control. Aswani, et al. (2013).</li>
+									<li>Diagnosis and Repair from Signal Temporal Logic Specifications. Ghosh, et al. (2016).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Oct 12</td>
+							<td><i>Reading</i>:&ensp; Safe Learning and Control</td>
+							<td>
+								<ul>
+									<li>Concrete Problems in AI Safety. Amodei, et al. (2016).</li>
+									<li>Reachability-based Safe Learning with Gaussian Processes. Akametalu, et al. (2014).</li>
+									<li>Safe Exploration for Optimization with Gaussian Processes. Sui, et al. (2015).</li>
+									<li>Bayesian Optimization with Safety Constraints. Berkenkamp, et al. (2016).</li>
+									<li>Safe Visual Navigation via Deep Learning and Novelty Detection. Richter, et al. (2017).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr >
+							<td>Tue, Oct 17</td>
+							<td><i>Reading</i>:&ensp; Adversarial Neural Networks</td>
+							<td>
+								<ul>
+									<li>Exploring the Space of Adversarial Images. Tabacof, et al. (2015).</li>
+									<li>The Limitations of Deep Learning in Adversarial Settings. Papernot, et al. (2016).</li>
+									<li>Adversarial Manipulation of Deep Representations. Sabour, et al. (2015).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Oct 19</td>
+							<td><i>Reading</i>:&ensp; Models of Cognition</td>
+							<td>
+								<ul>
+									<li>Probabilistic Models of Cognition: Conceptual Foundations. Chater, et al. (2006).</li>
+									<li>Probabilistic Models of Cognition: Exploring representations and inductive biases. Griffiths, et al. (2010).</li>
+									<li>Helping People Make Better Decisions Using Optimal Gamification. Lieder, et al. (2016).</li>
+									<li>A Reward Shaping Method for Promoting Metacognitive Learning. Lider, et al. (2016).</li>
+									<li>Prospect Theory. Kahneman and Tversky. (1979).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr >
+							<td>Tue, Oct 24</td>
+							<td><i>Lecture</i>:&ensp; Learning from Demonstration</td>
+							<td>
+								<ul>
+									<li>Maximum Margin Planning. Ratliff, et al. (2006).</li>
+									<li>Maximum Entropy IRL. Ziebart, et al. (2010).</li>
+									<li>Movement Primitives via Optimization. Dragan, et al. (2015).</li>
+									<li>Active Preference-Based Learning of Reward Functions. Sadigh, et al.(2017).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Oct 26</td>
+							<td><i>Reading</i>:&ensp; Learning from Demonstration</td>
+							<td>
+								<ul>
+									<li>Socially Compliant Mobile Robot Navigation via IRL. Kretzschmar, et al. (2016).</li>
+									<li>Predicting Human Reaching Motion in Collaborative Tasks using Inverse Optimal Control and Iterative re-planning. Mainprice, et al. (2015).</li>
+									<li>Trajectories and Keyframes for Kinesthetic Teaching. Akgun, et al. (2012).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr class="warning">
+							<td>Tue, Oct 31</td>
+							<td><b>Project Proposal Presentations</b><br>
+								<i>Lecture</i>:&ensp; Experimental Design</td>
+							<td><b>Due</b>:&ensp; Project Proposal</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Nov 02</td>
+							<td><i>Reading</i>:&ensp; Learning from Demonstration</td>
+							<td>
+								<ul>
+									<li>Designing Robot Learners that Ask Good Questions. Cakmak, et al. (2012).</li>
+									<li>Using perspective taking to learn from ambiguous demonstrations. Breazeal, et al. (2012).</li>
+									<li>Understanding Intentions of Others. Meltzoff, et al. (1995).</li>
+									<li>Infant Imitation After a 1-Week Delay. Meltzoff, et al. (1988).</li>
+									<li>Rational Imitation in Preverbal Infants. Gergely, et al. (2002).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tue, Nov 07</td>
+							<td><i>Lecture</i>:&ensp; Intent Inference</td>
+							<td>
+								<ul>
+									<li>Planning Based Prediction for Pedestrians. Ziebart, et al. (2009).</li>
+									<li>Goal Inference as Inverse Planning. Baker, et al. (2007).</li>
+									<li>Intention-Aware Motion Planning. Bandyopadhyay, et al. (2013).</li>
+									<li>Shared Autonomy via Hindsight Optimization. Javdani, et al. (2015).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Nov 09</td>
+							<td><i>Reading</i>:&ensp; Intent Expression</td>
+							<td>
+								<ul>
+									<li>Generating Legible Motion. Dragan, et al. (2013).</li>
+									<li>Manipulating Mental States through Physical Action. Gray, et al. (2014).</li>
+									<li>Generating Plans that Predict Themselves. Fisac, et al. (2016).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tue, Nov 14</td>
+							<td><i>Guest Lecture</i>:&ensp; Mo Chen</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Nov 16</td>
+							<td><i>Reading</i>:&ensp; Intent in HRI</td>
+							<td>
+								<ul>
+									<li>Expressing Thought: Improving Robot Readability with Animation Principles. Takayama, et al. (2011).</li>
+									<li>Anticipation in Robot Motion. Gielniak, et al. (2011).</li>
+									<li>Robot Navigation in Dense Human Crowds. Trautman, et al. (2013).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr class="active">
+							<td>Tue, Nov 21</td>
+							<td><i>Thanksgiving Break</i><br>
+								<i>Lecture</i>:&ensp; Interaction as an Underactuated System</td>
+							<td>
+								<ul>
+									<li>Planning for Autonomous Cars that Leverages Effects on Human Actions. Sadigh, et al. (2016).</li>
+									<li>Information Gathering Actions over Human Internal State. Sadigh, et al. (2016).</li>
+									<li>Robot Planning with Mathematical Models of Human State and Action. Dragan. (2017).</li>
+									<li>Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model. Nikolaidis, et al. (2016).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr class="active">
+							<td>Thu, Nov 23</td>
+							<td><i>Thanksgiving Break</i></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tue, Nov 28</td>
+							<td><i>Reading</i>:&ensp; Communication and Coordination</td>
+							<td>
+								<ul>
+									<li>Learning Behavior Styles with Inverse Reinforcement Learning. Lee, et al. (2010).</li>
+									<li>Asking for Help Using Inverse Semantics. Tellex, et al. (2014).</li>
+									<li>Knowledge and implicature: Modeling language understanding as social cognition. Goodman, et al. (2013).</li>
+									<li>Coordination Mechanisms in Human-Robot Collaboration. Mutlu, et al. (2013).</li>
+									<li>Conversational Gaze Aversion for Humanlike Robots. Andrist, et al. (2014).</li>
+									<li>Robot Deictics: How Gesture and Context Shape Referential Communication. Sauppé, et al. (2014).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Thu, Nov 30</td>
+							<td><i>Reading</i>:&ensp; Collaboration</td>
+							<td>
+								<ul>
+									<li>Implicitly Assisting Humans to Choose Good Grasps in Robot to Human Handovers. Bestick, et al. (2016).</li>
+									<li>Cooperative Inverse Reinforcement Learning. Hadfield-Menell, et al. (2016).</li>
+									<li>Human-Robot Cross-Training. Nikolaidis, et al. (2013).</li>
+								</ul>
+							</td>
+							<td></td>
+						</tr>
+						<tr class="warning">
+							<td>Tue, Dec 05</td>
+							<td><b>Project Presentations</b></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="warning">
+							<td>Thu, Dec 07</td>
+							<td><b>Project Presentations</b></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<br>
+				<div class="hrline"> <hr /> </div>
+				<br>
+				<h3> Grading </h3>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Component</th>
+							<th>Contribution to Grade</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Final Project</td>
+							<td>50%</td>
+						</tr>
+						<tr>
+							<td>Student Presentations &amp; Paper Reviews</td>
+							<td>30%</td>
+						</tr>
+						<tr>
+							<td>Scribing &amp; Class Participation</td>
+							<td>20%</td>
+						</tr>
+						<tr class="active">
+							<td>Total</td>
+							<td>100%</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+		</div>
+		<br>
+
+		<!-- The footer -->
+		<div class="hrline"><hr></div><br>
+		<div class="row clearfix">
+			<div class="col-md-3 column">
+			</div>
+			<div class="col-md-6 column">
+				<div class = "text-center">
+					<p>
+					&nbsp;&nbsp;&nbsp; &#169; Dorsa Sadigh 2017
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 column">
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<!-- End of document -->
+	</div>
+</body>
+</html>
