@@ -9788,6 +9788,16 @@ readers do not read off random characters that represent icons */
   font-weight: 900; }
 
 @font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url(3bdb625f0e05915a3377072547a1c3b4.eot);
+  src: url(3bdb625f0e05915a3377072547a1c3b4.eot?#iefix) format("embedded-opentype"), url(bc8103562992d74f693082d7efa9b8c0.woff2) format("woff2"), url(9657ece5806dafc8d8e6d166acd6564e.woff) format("woff"), url(ccde7a0dcbcd0a0f5917cea8220962e9.ttf) format("truetype"), url(e1d733f845e0e62961000fb3d261a0d7.svg#fontawesome) format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+
+@font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
@@ -9797,16 +9807,6 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
-
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: normal;
-  src: url(3bdb625f0e05915a3377072547a1c3b4.eot);
-  src: url(3bdb625f0e05915a3377072547a1c3b4.eot?#iefix) format("embedded-opentype"), url(bc8103562992d74f693082d7efa9b8c0.woff2) format("woff2"), url(9657ece5806dafc8d8e6d166acd6564e.woff) format("woff"), url(ccde7a0dcbcd0a0f5917cea8220962e9.ttf) format("truetype"), url(e1d733f845e0e62961000fb3d261a0d7.svg#fontawesome) format("svg"); }
-
-.fab {
-  font-family: 'Font Awesome 5 Brands'; }
 
 body {
   padding-top: 1.5rem;
